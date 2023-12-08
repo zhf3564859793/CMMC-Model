@@ -13,3 +13,6 @@ We provide two different versions CMMC model. CMMC only used Mn and PDI as the o
 
 ## SHAP
 We also provide the code for SHAP Analysis, you can find it in SHAP_xgb.ipynb.
+
+## Note
+1. Xgboost model performs better than random forest model when the Skewness and Kurtosis are added to describe the MWD. So we choose Xgboost model in CMMC_v1 and random forest model in CMMC.
